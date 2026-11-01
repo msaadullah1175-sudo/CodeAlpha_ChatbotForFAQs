@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": "CodeAlpha Internship",
+    "question": "What is the CodeAlpha Artificial Intelligence Internship?",
+    "answer": "The CodeAlpha AI Internship is a hands-on remote internship program that offers real-world experience in AI model development, machine learning workflows, and real-time computer vision data processing.",
+    "tags": ["codealpha", "overview", "internship", "program"]
+  },
+  {
+    "id": 2,
+    "category": "CodeAlpha Internship",
+    "question": "How many tasks are required to receive the internship completion certificate?",
+    "answer": "To be eligible for the internship certificate, participants must complete a minimum of 2 or 3 tasks from the assigned task list. Submitting only one task is considered incomplete.",
+    "tags": ["certificate", "completion", "requirements", "criteria", "tasks"]
+  },
+  {
+    "id": 3,
+    "category": "CodeAlpha Internship",
+    "question": "What is the repository naming format required for GitHub submission?",
+    "answer": "You must upload your complete source code to GitHub in repositories named in the format: CodeAlpha_ProjectName (for example, CodeAlpha_LanguageTranslationTool or CodeAlpha_ChatbotForFAQs).",
+    "tags": ["github", "repository", "naming", "submission", "repo"]
+  },
+  {
+    "id": 4,
+    "category": "CodeAlpha Internship",
+    "question": "How do I submit my completed internship projects?",
+    "answer": "You must submit your completed tasks using the official CodeAlpha Submission Form shared in your respective WhatsApp group. Include your GitHub repo URL and LinkedIn video demo link.",
+    "tags": ["submission", "form", "whatsapp", "link", "submit"]
+  },
+  {
+    "id": 5,
+    "category": "CodeAlpha Internship",
+    "question": "Is LinkedIn video posting mandatory?",
+    "answer": "Yes. Interns are required to post a video explanation/demo of their completed project on LinkedIn tagging @CodeAlpha and including the GitHub repository link.",
+    "tags": ["linkedin", "video", "demo", "tagging", "social"]
+  },
+  {
+    "id": 6,
+    "category": "CodeAlpha Internship",
+    "question": "What perks and benefits do interns receive upon completion?",
+    "answer": "Interns receive an Internship Offer Letter, a QR-verified Completion Certificate, a Unique ID Certificate, a Letter of Recommendation (LOR based on performance), and Placement / Resume support.",
+    "tags": ["perks", "benefits", "lor", "offer letter", "placement"]
+  },
+  {
+    "id": 7,
+    "category": "Artificial Intelligence",
+    "question": "What is the difference between Supervised, Unsupervised, and Reinforcement Learning?",
+    "answer": "Supervised Learning trains on labeled datasets (input-output pairs). Unsupervised Learning identifies hidden patterns in unlabeled data (clustering, PCA). Reinforcement Learning trains an agent to take actions in an environment to maximize cumulative reward.",
+    "tags": ["supervised", "unsupervised", "reinforcement", "machine learning"]
+  },
+  {
+    "id": 8,
+    "category": "Artificial Intelligence",
+    "question": "What is Cosine Similarity and how does it work in NLP?",
+    "answer": "Cosine similarity measures the cosine of the angle between two multi-dimensional vectors (such as TF-IDF or embedding vectors). It ranges from -1 to 1 (or 0 to 1 for non-negative vectors), where 1 means identical orientation/meaning regardless of text length.",
+    "tags": ["cosine similarity", "nlp", "vectors", "similarity", "angle"]
+  },
+  {
+    "id": 9,
+    "category": "Artificial Intelligence",
+    "question": "What is TF-IDF (Term Frequency - Inverse Document Frequency)?",
+    "answer": "TF-IDF is a statistical metric that evaluates how important a word is to a document within a collection. Term Frequency (TF) counts occurrences in a document, while Inverse Document Frequency (IDF) penalizes common words like 'the' or 'is'.",
+    "tags": ["tfidf", "term frequency", "nlp", "features", "text representation"]
+  },
+  {
+    "id": 10,
+    "category": "Artificial Intelligence",
+    "question": "What is an LSTM (Long Short-Term Memory) network?",
+    "answer": "An LSTM is a specialized Recurrent Neural Network (RNN) architecture designed to overcome the vanishing gradient problem. It utilizes input, forget, and output gates to retain long-term sequential dependencies in sequential data such as text, audio, and music.",
+    "tags": ["lstm", "rnn", "deep learning", "neural network", "music generation"]
+  },
+  {
+    "id": 11,
+    "category": "Artificial Intelligence",
+    "question": "How does YOLO (You Only Look Once) perform object detection?",
+    "answer": "YOLO frames object detection as a single regression problem, passing the entire image through a convolutional neural network once to predict bounding box coordinates and class probabilities simultaneously at real-time speeds.",
+    "tags": ["yolo", "object detection", "computer vision", "bounding box"]
+  },
+  {
+    "id": 12,
+    "category": "Artificial Intelligence",
+    "question": "What is SORT (Simple Online and Realtime Tracking)?",
+    "answer": "SORT is a real-time visual multiple object tracking algorithm. It leverages the Kalman Filter to estimate target states and predict future positions, combined with the Hungarian algorithm for data association based on bounding box Intersection-over-Union (IoU).",
+    "tags": ["sort", "tracking", "kalman filter", "hungarian", "iou"]
+  },
+  {
+    "id": 13,
+    "category": "Technical Support",
+    "question": "What should I do if an API rate limit or network error occurs?",
+    "answer": "The project includes automatic fallbacks and memory caching. Ensure you have an active internet connection. You can also configure alternate API keys or switch to local models as implemented in the core modules.",
+    "tags": ["error", "api", "network", "rate limit", "troubleshooting"]
+  },
+  {
+    "id": 14,
+    "category": "Technical Support",
+    "question": "How do I run the project web applications locally?",
+    "answer": "Navigate to the project directory in your terminal, ensure requirements are installed with 'pip install -r requirements.txt', and launch the interface using 'streamlit run app.py'.",
+    "tags": ["run", "streamlit", "local", "install", "execution"]
+  },
+  {
+    "id": 15,
+    "category": "Technical Support",
+    "question": "How does text preprocessing work in this chatbot?",
+    "answer": "User queries undergo lowercase conversion, punctuation and special character removal, NLTK tokenization, stopword filtering, and lemmatization to extract the semantic core before vector computation.",
+    "tags": ["preprocessing", "tokenization", "lemmatization", "nltk", "cleaning"]
+  }
+]
